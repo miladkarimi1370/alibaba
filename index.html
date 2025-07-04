@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali baba website</title>
+    <link rel="stylesheet" href="style/output.css">
+    <link rel="stylesheet" href="style/alibaba.css">
+
+</head>
+
+<body onload="setIdForPictureCollection();" class="relative">
+    <div class="w-full row  justify-center shadow-xl">
+        <header class="w-full xl:container  flex justify-evenly h-16 ">
+            <figure class="w-4/12 lg:w-2/12 flex justify-center items-center">
+                <img src="img/logo.svg" alt="logo">
+            </figure>
+            <div class="hidden lg:flex lg:w-6/12">
+                <nav class="w-full flex items-center   *:h-full">
+                    <ul class="flex justify-start  gap-14 items-center  *:h-full *:flex *:items-center **:h-full">
+                        <li class="relative myTitles" data-id="0">
+                            <a href="#" class="flex justify-center items-center *:flex *:justify-center *:items-center">
+                                <span class="px-2">بلیط</span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+
+
+                            </a>
+                            <nav class="absolute  top-16 -right-[50%] w-[200%] mySubTitles">
+                                <ul
+                                    class="*:py-2 flex flex-col   **:text-stone-500 **:text-sm *:px-5 *:hover:bg-stone-200 *:text-center *:duration-300 *:bg-white">
+                                    <li class="*:rounded-2xl"><a href="#">پرواز داخلی</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">پرواز خارجی</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">قطار</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">اتوبوس</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="relative myTitles" data-id="1">
+                            <a href="#" class="flex justify-center items-center *:flex *:justify-center *:items-center">
+                                <span class="px-2">اقامت</span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+
+
+                            </a>
+                            <nav class="absolute top-16 -right-[50%] w-[200%] mySubTitles ">
+                                <ul
+                                    class="*:py-2 flex flex-col   **:text-stone-500 **:text-sm *:px-5 *:hover:bg-stone-200 *:text-center *:duration-300 *:bg-white">
+                                    <li class="*:rounded-2xl"><a href="#">هتل</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">ویلا و اقامتگاه</a></li>
+
+                                </ul>
+                            </nav>
+                        </li>
+                        <li><a href="#" class="flex justify-center items-center">تور</a></li>
+                        <li><a href="#" class="flex justify-center items-center">ویزا</a></li>
+                        <li><a href="#" class="flex justify-center items-center">پنل آژانسی</a></li>
+                        <li class="relative " data-id="2">
+                            <a href="#"
+                                class="flex justify-center items-center myTitles *:flex *:justify-center *:items-center">
+
+                                <span class="text-sm md:text-md relative flex justify-center">بیشتر </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+
+
+                            </a>
+                            <nav class="absolute top-16 -right-[50%] w-[200%] mySubTitles ">
+                                <ul
+                                    class="*:py-2 flex flex-col   **:text-stone-500 **:text-sm *:px-5 *:hover:bg-stone-200 *:text-center *:duration-300 *:bg-white">
+                                    <li class="*:rounded-2xl"><a href="#">علی بابا پلاس</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">مجله علی بابا</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">بیمه مسافرتی</a></li>
+                                    <li class="*:rounded-2xl"><a href="#">سفر اقساطی</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="w-8/12 lg:w-4/12">
+                <nav class="h-full">
+                    <ul class=" flex justify-evenly h-full   *:flex *:h-full">
+                        <li class="hover:bg-stone-100 rounded-4xl duration-300 px-2"><a href="#"
+                                class="flex justify-center align-middle *:text-stone-500">
+                                <div class="flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                    </svg>
+
+                                </div>
+                                <span class="hidden lg:flex justify-center items-center text-sm">مرکز پشتیبانی های
+                                    سفرها</span>
+                            </a></li>
+                        <li class="hover:bg-stone-100 rounded-4xl duration-300 px-2"><a href="#"
+                                class="flex justify-center align-middle *:text-stone-500">
+                                <div class="flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                    </svg>
+
+
+                                </div>
+                                <span class="hidden lg:flex justify-center items-center text-sm">سفرهای من</span>
+                            </a></li>
+                        <li class="hover:bg-stone-100 rounded-4xl duration-300 px-2"><a href="#"
+                                class="flex justify-center align-middle *:text-stone-500">
+                                <div class="flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                    </svg>
+                                </div>
+                                <span class="hidden lg:flex justify-center items-center text-sm">ورود یا ثبت نام</span>
+                            </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="w-full row  justify-center">
+        <section class="w-full xl:container">
+            <div class="w-full">
+                <figure class="w-full myCollectionPicture">
+                    <img src="img/pic7.jpg" class="w-full object-cover hidden" alt="">
+                    <img src="img/pic6.jpg" class="w-full object-cover hidden" alt="">
+                    <img src="img/pic5.jpg" class="w-full object-cover hidden" alt="">
+                    <img src="img/pic4.jpg" class="w-full object-cover hidden" alt="">
+                    <img src="img/pic3.jpg" class="w-full object-cover hidden" alt="">
+                    <img src="img/pic2.jpg" class="w-full object-cover hidden" alt="">
+                    <img src="img/pic1.jpg" class="w-full object-cover hidden" alt="">
+                </figure>
+            </div>
+            <div class=" row justify-center bg-white translate-y-10 lg:-translate-y-20">
+                <div class="row justify-center w-full lg:w-10/12 myCustomBorder">
+                    <nav class="w-full h-28">
+                        <ul class="row justify-evenly h-full myUlForPictureCollection">
+                            <li data-id="0">
+                                <a href="#"
+                                    class="duration-300 flex flex-wrap *:w-full  h-full mySelectionForExactModifying ">
+
+                                    <div class="icon-plane-outline flex justify-center items-center"
+                                        onclick="handleLink(event)"></div>
+                                    <p class="flex justify-center items-center" onclick="handleLink(event)">پرواز داخلی
+                                    </p>
+                                </a>
+                            </li>
+                            <li data-id="1">
+                                <a href="#" class="duration-300 flex flex-wrap *:w-full  h-full">
+
+                                    <div class="icon-flight flex justify-center items-center "
+                                        onclick="handleLink(event);"></div>
+                                    <p class="flex justify-center items-center " onclick="handleLink(event);">پرواز
+                                        خارجی</p>
+                                </a>
+                            </li>
+                            <li data-id="2">
+                                <a href="#" class="duration-300 flex flex-wrap *:w-full  h-full">
+
+                                    <div class=" icon-train flex justify-center items-center"
+                                        onclick="handleLink(event)"></div>
+                                    <p class="flex justify-center items-center" onclick="handleLink(event)">قطار</p>
+                                </a>
+                            </li>
+                            <li data-id="3">
+                                <a href="#" class="duration-300 flex flex-wrap *:w-full  h-full">
+
+                                    <div class="icon-bus flex justify-center items-center" onclick="handleLink(event)">
+                                    </div>
+                                    <p class="flex justify-center items-center" onclick="handleLink(event)">اتوبوس</p>
+                                </a>
+                            </li>
+                            <li data-id="4">
+                                <a href="#" class="duration-300 flex flex-wrap *:w-full  h-full">
+
+                                    <div class="icon-globe flex justify-center items-center"
+                                        onclick="handleLink(event)"></div>
+                                    <p class="flex justify-center items-center" onclick="handleLink(event)">تور</p>
+                                </a>
+                            </li>
+                            <li data-id="5">
+                                <a href="#" class="duration-300 flex flex-wrap *:w-full  h-full">
+
+                                    <div class="icon-warehouse flex justify-center items-center"
+                                        onclick="handleLink(event)"></div>
+                                    <p class="flex justify-center items-center" onclick="handleLink(event)">هتل</p>
+                                </a>
+                            </li>
+                            <li data-id="6">
+                                <a href="#" class="duration-300 flex flex-wrap *:w-full  h-full">
+
+                                    <div class="icon-home flex justify-center items-center" onclick="handleLink(event)">
+                                    </div>
+                                    <p class="flex justify-center items-center" onclick="handleLink(event)">ویلا و
+                                        اقامتگاه</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="row justify-center w-full lg:w-10/12 myCustomBorder border-t-0">
+                    <div class="row  w-full *:w-full  wrapperOfOptionsForTrip h-60">
+                        <div class="row justify-evenly lg:justify-start items-center ">
+                            <select name="oneWay" id=""
+                                class="myCustomBorder text-sm p-2 mx-3.5  rounded-full hover:bg-white focus-visible:myCustomBorder">
+                                <option value="oneWay ">یک طرفه</option>
+                                <option value="goBack ">رفت و برگشت</option>
+
+                            </select>
+                            <select name="level" id=""
+                                class="myCustomBorder text-sm p-2 mx-3.5  rounded-full hover:bg-white focus-visible:myCustomBorder">
+                                <option value="economic">اکونومی</option>
+                                <option value="pEconomic">پرمیوم اکونومی</option>
+                                <option value="business">بیزنس</option>
+                                <option value="businessP">بیزنس پرمیوم</option>
+                                <option value="firstClass">فرست</option>
+                                <option value="pFirstClass">پرمیوم فرست</option>
+
+
+                            </select>
+
+                            <select name="specialTransportation" id=""
+                                class="myCustomBorder text-sm p-2 mx-3.5  rounded-full hover:bg-white focus-visible:myCustomBorder">
+                                <option value="noSpecial">دریست نمیخواهم</option>
+                                <option value="special">دربست میخواهم</option>
+
+                            </select>
+                            <select name="passenger" id=""
+                                class="myCustomBorder text-sm p-2 mx-3.5  rounded-full hover:bg-white focus-visible:myCustomBorder">
+                                <option value="ordinaryPassenger">مسافران عادی</option>
+                                <option value="extraordinaryWomensPassenger">ویژه خواهران</option>
+                                <option value="extraordinaryMensPassengers">ویژه برادران</option>
+
+
+                            </select>
+                            <select name="takeCar" id=""
+                                class="myCustomBorder text-sm p-2 mx-3.5  rounded-full hover:bg-white focus-visible:myCustomBorder">
+                                <option value="noTakeCar">حمل خودرو نمیخواهم</option>
+                                <option value="demandTakeCar">حمل خودرو میخواهم</option>
+                            </select>
+
+                        </div>
+                        <div class="row justify-evenly items-center">
+                            <form action="" class="relative">
+                                <select name="" id=""
+                                    class="myCustomBorder appearance-none focus:outline-none w-[15vw] py-3 text-stone-500 px-8">
+                                    <option value="origin">مبدا ( شهر )</option>
+                                    <option value="origin">تهران</option>
+                                    <option value="origin">مشهد</option>
+                                    <option value="origin">شیراز</option>
+                                    <option value="origin">کیش</option>
+                                    <option value="origin">اصفهان</option>
+                                    <option value="origin">قشم</option>
+                                    <option value="origin">اهواز</option>
+
+                                </select>
+                                <select name="" id=""
+                                    class="myCustomBorder appearance-none focus:outline-none w-[15vw] py-3 translate-x-1.5 text-stone-500 px-8">
+                                    <option value="origin">مقصد ( شهر )</option>
+                                    <option value="origin">تهران</option>
+                                    <option value="origin">مشهد</option>
+                                    <option value="origin">شیراز</option>
+                                    <option value="origin">کیش</option>
+                                    <option value="origin">اصفهان</option>
+                                    <option value="origin">قشم</option>
+                                    <option value="origin">اهواز</option>
+
+                                </select>
+                                <div
+                                    class="absolute top-[50%] right-[50%] bg-stone-100 border-[1px] border-stone-500 rounded-full p-3 cursor-pointer translate-x-[60%] -translate-y-[50%]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                                    </svg>
+
+                                </div>
+                            </form>
+                            <form action="" class="relative">
+                                <select name="" id=""
+                                    class="myCustomBorder appearance-none focus:outline-none w-[10vw] py-3 text-stone-500 px-8">
+                                    <option value="origin">تاریخ رفت</option>
+
+
+                                </select>
+                                <select name="" id="" disabled
+                                    class="myCustomBorder appearance-none focus:outline-none bg-stone-200 w-[10vw] py-3 translate-x-1.5 text-stone-500 px-8">
+                                    <option value="origin">تاریخ برگشت</option>
+
+
+                                </select>
+                                <div
+                                    class="absolute top-[50%] right-[50%] bg-stone-100 border-[1px] border-stone-500 rounded-full p-3 cursor-pointer translate-x-[60%] -translate-y-[50%]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                                    </svg>
+
+                                </div>
+                            </form>
+                            <form action="" class="relative">
+                                <input type="text"
+                                    class="myCustomBorder appearance-none focus:outline-none w-[10vw] py-3 text-stone-500 px-8"
+                                    placeholder="تعداد مسافران" value="1 مسافر">
+
+                            </form>
+                            <button
+                                class="w-[10vw] py-3 text-stone-700 bg-amber-400 rounded-lg cursor-pointer px-8">جستجو</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="row justify-center w-full mt-20 lg:mt-0">
+        <div class="w-full lg:container">
+            <div class="w-full pb-5">
+                <h2 class="font-bold text-stone-700 text-lg px-5">سایر خدمات علی بابا</h2>
+            </div>
+            <div
+                class="w-full flex justify-center myCustomBorder h-20 *:w-1/4 *:flex *:justify-center *:items-center mb-5">
+                <div class="border-l-[1px] border-stone-200 cursor-pointer">
+                    <figure class="flex gap-4 justify-center items-center">
+                        <img src="img/logoforotherservices/logo1.svg" alt="">
+                        <figcaption class="text-sm text-stone-500">سفر کارت ( سازمانی )
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="border-l-[1px] border-stone-200 cursor-pointer">
+                    <figure class="flex gap-4 justify-center items-center">
+                        <img src="img/logoforotherservices/logo1.svg" alt="">
+                        <figcaption class="text-sm text-stone-500">سفر اقساطی </figcaption>
+                    </figure>
+                </div>
+                <div class="border-l-[1px] border-stone-200 cursor-pointer">
+                    <figure class="flex gap-4 justify-center items-center">
+                        <img src="img/logoforotherservices/logo3.svg" alt="">
+                        <figcaption class="text-sm text-stone-500">ویزای سفر </figcaption>
+                    </figure>
+                </div>
+                <div class="">
+                    <figure class="flex gap-4 justify-center items-center">
+                        <img src="img/logoforotherservices/logo4.svg" alt="">
+                        <figcaption class="text-sm text-stone-500">تور گردشگری</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="w-full *:w-full lg:*:w-4/12 flex justify-center gap-4 cursor-pointer pb-5">
+                <figure class="flex justify-center items-center myCustomBorder">
+                    <img src="img/logoforotherservices/AL_Digitalmarketing_on_going_Safar_Card_Cardview_Banner_Desktop_03_10_29_84e3e680f4.webp"
+                        class="object-cover w-full" alt="">
+                </figure>
+                <figure class="flex justify-center items-center myCustomBorder"><img class="object-cover w-full"
+                        src="img/logoforotherservices/Moneyro_Cardview_Desktop_1afa11d128.webp" alt=""></figure>
+
+            </div>
+            <div class="w-full row *:w-full  myCustomBorder lg:*:w-1/2 pt-5">
+                <div class="row *:w-full md:*:w-1/2">
+                    <figure class="flex justify-center xl:h-1/2 items-center mt-3">
+                        <img src="img/logoforotherservices/qrcode-56155e39.png" class="object-contain" alt="">
+                    </figure>
+                    <div class="py-4 row justify-center *:w-full  *:py-1 *:text-center">
+                        <h2 class="font-bold text-stone-500 text-xl"> اپلیکیشن علی بابا</h2>
+                        <h5>سریع تر و مطمئن تر به سفر بروید</h5>
+                        <h5><a href="" class="text-blue-500 tracking-widest">مشاهده لینک های دانلود </a></h5>
+                        <div>
+
+                            <h6 class="text-xs text-stone-400">قابلیت نصب روی android و ios</h6>
+                        </div>
+                    </div>
+                </div>
+                <figure class="flex justify-center">
+                    <img src="img/logoforotherservices/app-mobile-travels-lg-34ce5db4.webp" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="w-full  row justify-center">
+        <section class="w-full xl:container">
+            <div class="my-6 row justify-center">
+                <h2 class="text-stone-800 font-bold text-2xl w-8/12">پرسش های شما</h2>
+            </div>
+            <div class="myAccordionMenu row justify-center">
+                <div class=" myCustomBorder border-b-0 cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">چند روز قبل از پرواز، بلیط هواپیما را
+                            بخریم؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">امکان رزرو بلیط هواپیما از
+                        ماه‌ها
+                        قبل وجود
+                        دارد. اما
+                        گاهی اوقات
+                        قیمت بلیط هواپیما در روزهای نزدیک
+                        به پرواز ارزان‌تر می‌شود. بنابراین در صورتی که شرایطتان اجازه می‌دهد، رزرو آنلاین بلیط هواپیما
+                        را به روزهای نزدیک پرواز موکول کنید. البته اگر قصد سفر در ایام پرسفر نظیر تعطیلات را دارید، باید
+                        هر چه زودتر رزرو بلیط هواپیما را انجام دهید.</p>
+                </div>
+                <div class=" myCustomBorder border-b-0 cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">در هر پرواز، میزان بار مجاز چقدر است؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">
+                        میزان مجاز بار به کلاس پرواز و
+                        کلاس نرخی بلیط بستگی دارد. هنگام خرید آنلاین بلیط هواپیما می‌توانید میزان بار مجاز را در اطلاعات
+                        بلیط ببینید. طبیعی است که اگر میزان بارتان بیش از حد مجاز باشد، باید جریمه پرداخت کنید.</p>
+                </div>
+                <div class=" myCustomBorder border-b-0 cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">نرخ بلیط هواپیما برای نوزادان و کودکان زیر ۱۲ سال چگونه
+                            است؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">
+                        نرخ بلیط کودکان و نوزادان به کلاس پرواز و کلاس نرخی بستگی دارد. به صورت کلی، قیمت بلیط مسافر
+                        کودک (2 الی 12 سال) معادل 50 الی 100 درصد بلیط بزرگسال، و قیمت بلیط مسافر نوزاد (تا دو سال) 10
+                        درصد بلیط بزرگسال است. هنگام تهیه بلیط هواپیما به این نکته توجه داشته باشید.
+                    </p>
+                </div>
+                <div class=" myCustomBorder border-b-0 cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">رزرو آنلاین بلیط هواپیما هزینه بیشتری از خرید حضوری
+                            دارد؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">
+                        خیر؛ زمانی که از یک سایت معتبر خرید بلیط هواپیما، اقدام به خرید می‌کنید، نه تنها هزینه بیشتری
+                        پرداخت نمی‌کنید، حتی ممکن است تخفیف هم بگیرید. ضمنا با خرید آنلاین بلیط هواپیما از پشتیبانی نیز
+                        برخودار هستید.
+                    </p>
+                </div>
+                <div class=" myCustomBorder border-b-0 cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">آیا پس از خرید اینترنتی بلیط هواپیما امکان استرداد آن
+                            وجود دارد؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">
+                        وقتی از علی‌بابا یعنی بهترین سایت خرید بلیط هواپیما ، بلیطتان را رزرو می‌کنید، خیالتان آسوده است
+                        که امکان استرداد وجه در صورت کنسل کردن بلیط وجود دارد. میزان جریمه را هم هنگام رزرو آنلاین بلیط
+                        هواپیما در قسمت قوانین استرداد بخوانید. میزان جریمه به نوع بلیط، کلاس پروازی، کلاس نرخی و...
+                        بستگی دارد.
+                </div>
+                <div class=" myCustomBorder border-b-0 cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">آیا پس از خرید بلیط هواپیما، امکان تغییر نام یا نام
+                            خانوادگی وجود دارد؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">
+                        در پرواز داخلی یا خارجی، امکان تغییر نام و نام خانوادگی در بلیط سیستمی وجود ندارد. اما در بلیط
+                        چارتر، برخی از چارترکننده‌ها این تغییر را می‌پذیرند.
+                </div>
+                <div class=" myCustomBorder cursor-pointer duration-300 overflow-y-hidden w-11/12 lg:w-8/12">
+                    <div class="partAccordion flex justify-start *:py-5  *:h-full">
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="#ADD8E6" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="grey" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                            </svg>
+
+                        </span>
+                        <h2 class="text-stone-500 text-lg font-bold w-22/24  flex items-center"
+                            onclick="myToggleAccordion(event);">هنگامی که از سایت خرید بلیط هواپیما رزرو بلیط را انجام
+                            می‌دهیم، امکان انتخاب صندلی مورد نظرمان وجود دارد؟</h2>
+                        <span class="w-1/24 px-2 flex items-center " onclick="myToggleAccordion(event);">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </span>
+                    </div>
+                    <p class="text-md text-stone-400 pt-7 px-10 duration-300 leading-9">
+                        خیر؛ هنگام رزرو بلیط هواپیما داخلی یا خارجی امکان انتخاب صندلی وجود ندارد. البته در زمان چک‌این
+                        انتخاب محدوده صندلی امکان‌پذیر است.
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section class="">
+            <div class="py-10">
+                <h2 class="text-xl text-stone-700 font-bold py-2">بلیط هواپیما</h2>
+                <h5 class="text-md text-stone-600 font-bold py-2">علی‌بابا، رتبه یک خرید اینترنتی بلیط سفر</h5>
+            </div>
+            <div class="row justify-evenly items-center w-full lg:*:w-1/2">
+                <p class="text-justify text-stone-500 text-md leading-8 order-2 lg:order-1">علی‌بابا، بزرگترین و
+                    معتبرترین پلتفرم خرید
+                    اینترنتی بلیط
+                    هواپیما، قطار و اتوبوس
+                    در کشور، از سال ۱۳۹۳
+                    فعالیت خود را با هدف تسهیل خرید آنلاین خدمات سفر آغاز کرده و در این مدت توانسته است اعتماد و رضایت
+                    درصد بالایی از کاربران را جلب کند. این سامانه ابتدا با تمرکز بر فروش بلیط پرواز داخلی شروع به کار
+                    کرد و به‌طور تدریجی دامنه خدمات خود را به سایر محصولات گردشگری گسترش داد.
+                    امروز، علی بابا به یکی از معتبرترین و محبوب‌ترین سامانه‌های سفر در ایران تبدیل شده است. بر اساس
+                    نظرسنجی‌ها، 97.2 درصد از مشتریان علی‌بابا از کیفیت خدمات این پلتفرم رضایت کامل داشته و آن را به
+                    دوستان و آشنایان خود توصیه کرده‌اند. ویژگی‌هایی همچون سرعت و راحتی خرید آنلاین بلیط هواپیما داخلی،
+                    اعتبار و خوشنامی برند، امکان استرداد آنلاین بلیط هواپیما و پشتیبانی 24 ساعته در تمامی ایام هفته،
+                    موجب شده است که علی بابا جایگاه نخست در فروش بلیط در ایران را به خود اختصاص دهد.</p>
+                <figure class="flex justify-end order-1 lg:order-2">
+                    <img src="img/baggage-0e38357c.webp" alt="">
+                </figure>
+
+            </div>
+        </section>
+    </div>
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">مزایای خرید بلیط هواپیما از علی‌بابا</h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                شما با خرید بلیط هواپیما از علی‌بابا با سامانه مطمئن و معتبری روبه‌رو هستید که تمام نیازهایتان را پاسخ
+                می‌دهد. برای خرید آنلاین بلیط هواپیما در علی‌بابا کافیست مبدا، مقصد و تاریخ پرواز خود را انتخاب کنید. پس
+                از کلیک روی جستجو، لیست قیمت بلیط هواپیما به مقصد مورد نظر شما ظاهر می‌شود. در این لیست، انتخابهای
+                متعددی پیش روی شماست. برای اینکه گزینه‌ ها را برای خرید بلیط هواپیما محدودتر کنید، علی‌بابا ابزارهای
+                مختلفی در اختیار شما می‌گذارد.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">تقویم قیمتی بلیط هواپیما</h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                یکی از ابزارهای کاربردی و بسیار مفید علی بابا برای خرید اینترنتی بلیط هواپیما، تقویم قیمتی است. با
+                استفاده از این تقویم، می‌توانید نوسانات قیمت بلیط پرواز داخلی در روزهای قبل و بعد از تاریخ مورد نظر خود
+                را به‌دقت بررسی کنید. اگر برای سفر خود انعطاف‌پذیری دارید و الزام به خرید بلیط در تاریخ مشخصی ندارید،
+                این ابزار به شما کمک می‌کند تا با انتخاب روزهای ارزان‌تر، رزرو بلیط هواپیمای خود را با هزینه به‌صرفه‌تری
+                تهیه کنید.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">فیلترهای پیشرفته جستجوی بلیط هواپیما</h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                علاوه بر این، با استفاده از فیلترهای کنار صفحه می‌توانید ایرلاین مورد نظرتان را انتخاب کنید. ضمنا
+                می‌توانید، بلیط چارتر هواپیما یا سیستمی را فعال کنید تا فقط یکی از این دو نوع بلیط را مشاهده کنید. بلیط
+                هواپیما خارجی ،کلاس پروازی و زمان پرواز هم از دیگر گزینه‌هایی است که با انتخاب آنها، تعداد بلیط ها
+                محدودتر و رزرو بلیط هواپیما برای شما آسانتر می‌شود.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-lg text-stone-700 font-bold py-2">فیلترهای جستجو برای بلیط هواپیما داخلی :</h2>
+            <ul class="list-disc row justify-start *:w-full p-5 *:text-stone-400 *:text-md">
+                <li>انتخاب بلیط هواپیما داخلی بر اساس ساعت حرکت</li>
+                <li>انتخاب بر اساس نوع بلیط</li>
+                <li>فیلتر بلیط ها بر اساس کلاس پروازی</li>
+                <li>رزرو بلیط بر اساس شرکت های هواپیمایی داخلی ایران</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-lg text-stone-700 font-bold py-2">فیلترهای جستجوی بلیط هواپیما برای پرواز های خارجی:</h2>
+            <ul class="list-disc row justify-start *:w-full p-5 *:text-stone-400 *:text-md">
+                <li>انتخاب بلیط هواپیما بر اساس ساعت حرکت</li>
+                <li>انتخاب بلیط هواپیما بر اساس ساعت رسیدن به مقصد</li>
+                <li>خرید بلیط پرواز بر اساس تعداد توقف ها: پرواز مستقیم – پرواز با یک توقف و بلیط پرواز با دو توقف</li>
+                <li>انتخاب پرواز های بدون توقف طولانی (بالای 4 ساعت)</li>
+                <li>مشاهده بلیط پروازها بر اساس بار چمدان: بدون بار – بار بین 20 تا 40 کیلوگرم</li>
+                <li>جستجوی بلیط های پروازی بر اساس تنظیم مدت زمان توقف</li>
+                <li>انتخاب پرواز بر اساس مدت زمان سفر (بین 1 ساعت تا 27 ساعت)</li>
+                <li>فیلتر فرودگاه های مسیر برای مبدا، مقصد و فرودگاهای توقف در طول پرواز</li>
+                <li>انتخاب مدل هواپیما برای خرید بلیط پرواز</li>
+                <li>فیلتر قیمتی که به شما کمک میکند تا قیمت بلیط هواپیما داخلی را بر اساس بودجه خود تنظیم و مشاهده کنید
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">پرداخت آسان خرید بلیط هواپیما با کارت های شتاب
+            </h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                برای پرداخت هزینه می‌توانید از کارت شتاب استفاده کنید. پس از پرداخت، خرید اینترنتی بلیط هواپیما با
+                موفقیت انجام میشود و بلیط به ایمیل شما ارسال میشود.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">پشتیبانی 24 ساعته علی بابا
+            </h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                در تمامی مراحل خرید بلیط، پشتیبانی 24 ساعته علی بابا همواره از طریق سایت، اپلیکیشن، تماس تلفنی و ارسال
+                تیکت در کنار شماست. هر زمان که سوال یا مشکلی پیش آمد، می‌توانید با تیم پشتیبانی علی بابا ارتباط برقرار
+                کنید و به‌سرعت راهنمایی‌های لازم را دریافت کنید.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">رزرو بلیط هواپیما از معتبرترین و جامع ترین ایرلاین‌های
+                پرواز داخلی و خارجی
+            </h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                شما برای خرید بلیط هواپیما از بین ایرلاینهای مختلف حق انتخاب دارید و می‌توانید از ایرلاینهای ماهان،
+                زاگرس، کیش ایر، قشم ایر، آسمان، کاسپین، تابان، وارش یا معراج، بلیط پرواز داخلی خود را خریداری کنید.
+                همچنین جهت خرید بلیط هواپیما برای مسیرهای خارجی می‌توانید بلیط خود را از ایرلاین های IranAirtour,
+                QeshmAir, AirArabia, Mahan Airlines, Flydubai, Emirates, Ajet, Qatar Airways, Turkish Airlines انتخاب
+                نمایید. <br>
+                هر یک از این ایرلاین‌ها دارای ویژگی‌ها و مزایای خاص خود هستند. برخی از آن‌ها خدمات و امکانات رفاهی
+                بیشتری ارائه می‌دهند، در حالی که برخی دیگر قیمت بلیط هواپیما داخلی را بصورت اقتصادی‌تری ارائه می‌کنند.
+                این تنوع به شما این امکان را می‌دهد تا بر اساس نیازها و اولویت‌های خود، مناسب‌ترین پرواز را انتخاب کنید.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">خرید بلیط برای مسیرهای پروازی مختلف داخلی
+            </h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                علی بابا امکان خرید بلیط هواپیما داخلی برای تمامی مسیرهای پروازی را با تنوع گسترده‌ای از ایرلاین‌ها و
+                قیمت‌های مختلف در اختیار شما قرار می‌دهد. چه قصد سفر به شهرهای بزرگ مانند تهران، مشهد، اصفهان داشته
+                باشید یا به شهرهای کوچک‌تر، با رزرو آنلاین بلیط هواپیما در علی‌بابا می‌توانید به‌راحتی و در کمترین زمان
+                پرواز خود را انتخاب و بلیطتان را تهیه کنید. خرید بلیط برای مسیرهایی نظیر بلیط هواپیما تهران مشهد، بلیط
+                هواپیما تهران شیراز و پرواز تهران تبریز از جمله پرطرفدارترین و پرترددترین مسیرهای پروازی داخلی به شمار
+                می‌آید.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 py-5">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">خرید بلیط برای مسیرهای پروازی مختلف خارجی
+            </h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                اگر به دنبال سفری به خارج از کشور هستید، علی‌بابا با ارائه بلیط هواپیما به مقاصد بین‌المللی متنوع،
+                تجربه‌ای راحت و سریع برای رزرو آنلاین بلیط هواپیما فراهم می‌کند. از پرواز به کشورهای همسایه مثل ترکیه و
+                امارات گرفته تا مقاصد دورتر در اروپا، آسیا یا آمریکا، می‌توانید از بین ایرلاین‌های معتبر بلیط مناسب را
+                انتخاب و خریداری کنید.
+            </p>
+        </section>
+    </div>
+
+
+    <div class="w-full  row justify-center *:w-11/12 lg:*:w-8/12 pt-5 pb-36 border-b-[1px] border-stone-300">
+        <section>
+            <h2 class="text-xl text-stone-700 font-bold py-2">امکان استرداد بلیط هواپیما در علی بابا
+            </h2>
+            <p class="text-justify text-stone-500 text-md leading-8">
+                یکی از ویژگی‌های برجسته علی بابا، امکان استرداد آنلاین بلیط هواپیما (کنسلی بلیط) است. در صورتی که پس از
+                رزرو بلیط، برنامه سفرتان تغییر کند، می‌توانید به‌سادگی و بر اساس قوانین استرداد پرواز داخلی، بلیط
+                هواپیمای خود را کنسل کنید. پس از تکمیل فرایند استرداد، وجه پرداختی شما در کوتاه‌ترین زمان ممکن به حساب
+                شما برگشت داده می‌شود. خرید اینترنتی بلیط هواپیما از علی بابا از طریق تلفن همراه، رایانه شخصی یا تبلت
+                امکان‌پذیر است و در تمامی این دستگاه‌ها، تجربه‌ای کاربرپسند و آسان خواهید داشت. علاوه بر این، امکان نصب
+                و استفاده از اپلیکیشن علی بابا برای گوشی‌های اندروید و آیفون نیز فراهم است تا خرید بلیط هواپیما را در هر
+                زمان و مکان به راحتی انجام دهید.
+            </p>
+        </section>
+    </div>
+
+    <div class="w-full py-10 row justify-center items-center border-b-[1px] border-stone-300">
+        <section class="row justify-center w-8/12 *:w-full md:*:w-1/3 ">
+            <div class="row *:w-1/2">
+                <figure class="flex justify-center ">
+                    <img src="img/1.webp" alt="">
+                </figure>
+                <div class="row justify-center *:w-10/12">
+                    <h2 class=" self-end text-md text-stone-500">رتبه یک سفر</h2>
+                    <p class="text-sm text-stone-600 self-center">
+                        معتبرترین عرضه‌کننده محصولات گردشگری در ایران
+                    </p>
+                </div>
+
+            </div>
+            <div class="row *:w-1/2">
+                <figure class="flex justify-center ">
+                    <img src="img/2.webp" alt="">
+                </figure>
+                <div class="row justify-center *:w-10/12">
+                    <h2 class=" self-end text-md text-stone-500">همسفر هر سفر</h2>
+                    <p class="text-sm text-stone-600 self-center">
+                        ارائه تمامی خدمات سفر (پرواز، قطار، اتوبوس، هتل و تور)
+                    </p>
+                </div>
+
+            </div>
+            <div class="row *:w-1/2">
+                <figure class="flex justify-center ">
+                    <img src="img/3.webp" alt="">
+                </figure>
+                <div class="row justify-center *:w-10/12">
+                    <h2 class=" self-end text-md text-stone-500">همسفر همه لحظات سفر</h2>
+                    <p class="text-sm text-stone-600 self-center">
+                        پشتیبانی و همراهی ۲۴ ساعته در تمامی مراحل سفر
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+
+    <div class="row justify-center w-full   *:w-11/12 ">
+        <footer class="row *:w-1/2 lg:container  py-10">
+            <div class="row justify-evenly  content-start *:w-1/3">
+                <nav>
+                    <h3 class="text-stone-600 font-bold text-md pb-3">علی بابا</h3>
+                    <ul class="text-stone-500 text-sm *:py-2 *:hover:text-stone-400 *:duration-200">
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس باما</a></li>
+                        <li><a href="#">چرا علی بابا</a></li>
+                        <li><a href="#">علی بابا پلاس</a></li>
+                        <li><a href="#">بیمه های مسافرتی</a></li>
+                        <li><a href="#">مجله علی بابا</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h3 class="text-stone-600 font-bold text-md pb-3">خدمات مشتریان</h3>
+                    <ul class="text-stone-500 text-sm *:py-2 *:hover:text-stone-400 *:duration-200">
+                        <li><a href="#">مرکز پشتیبانی آنلاین</a></li>
+                        <li><a href="#">راهنمای خرید</a></li>
+                        <li><a href="#">راهنمای استرداد</a></li>
+                        <li><a href="#">قوانین و مقررات</a></li>
+                        <li><a href="#">پرسش و پاسخ</a></li>
+
+                    </ul>
+                </nav>
+                <nav>
+                    <h3 class="text-stone-600 font-bold text-md pb-3">اطلاعات تکمیلی</h3>
+                    <ul class="text-stone-500 text-sm *:py-2 *:hover:text-stone-400 *:duration-200">
+                        <li><a href="#">فروش سازمانی</a></li>
+                        <li><a href="#">پنل آژانسی علی بابا</a></li>
+                        <li><a href="#">فرصت های شغلی</a></li>
+                        <li><a href="#">سنجش رضایتمندی</a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="*:w-full row justify-end content-start">
+                <figure class="flex justify-end">
+                    <img src="img/logo.svg" alt="">
+                </figure>
+                <div class="row *:w-10/12 justify-end *:text-stone-500 *:py-3">
+                    <h4 class="font-bold ">تلفن پشتیبانی :<span style="direction: ltr;">43900000 - 021</span></h4>
+                    <h5><span class="font-bold">دفتر پشتیبانی:</span> اکباتان، نبش اتوبان لشگری، کوی بیمه، خیابان بیمه
+                        چهارم، بن‌بست
+                        گل‌ها، پلا</h5>
+                </div>
+                <div class="py-10">
+                    <ul class="row justify-evenly content-center *:w-1/2 sm:*:w-1/3 md:*:w-1/4 lg:*:w-1/6 *:py-5">
+                        <li>
+                            <a href="">
+                                <figure class="w-[80%] border-[1px] border-stone-300 rounded-2xl p-1"><img
+                                        class="w-full" src="img/logoforfooter/aira-682b7c43.png" alt=""></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure class="w-[80%] border-[1px] border-stone-300 rounded-2xl p-1"><img
+                                        class="w-full" src="img/logoforfooter/ecunion-35c3c933.jpg" alt=""></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure class="w-[80%] border-[1px] border-stone-300 rounded-2xl p-1"><img
+                                        class="w-full" src="img/logoforfooter/passenger-rights-48368f81.svg" alt="">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure class="w-[80%] border-[1px] border-stone-300 rounded-2xl p-1"><img
+                                        class="w-full" src="img/logoforfooter/samandehi-6e2b448a.png" alt=""></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <figure class="w-[80%] border-[1px] border-stone-300 rounded-2xl p-1"><img
+                                        class="w-full" src="img/logoforfooter/state-airline-f45c55b2.svg" alt="">
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <div class="fixed bottom-5 right-5 h-40 group">
+        <figure
+            class="h-full flex justify-evenly  relative rounded-3xl rounded-bl-none p-1 bg-gradient-to-r from-blue-400 to-purple-800">
+
+            <img src="img/milad.jpg"
+                class=" object-cover animate-[myFancy_10s_infinite_ease-out]  h-full w-full bg-gray-300 rounded-2xl p-2  myCustomFancyBorder"
+                alt="">
+
+            <figcaption
+                class="text-xl text-white font-bold italic text-center bg-gradient-to-r from-purple-800  to-blue-400 absolute bottom-0 left-0 opacity-0 group-hover:opacity-100 duration-700 -translate-x-34 p-3 rounded-2xl rounded-tr-none rounded-br-none">
+                Milad Karimi</figcaption>
+
+        </figure>
+    </div>
+
+
+
+
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
