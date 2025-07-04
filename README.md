@@ -1,6 +1,6 @@
 # alibaba website
 
-** A fully responsive and dynamic with tailwindcss and pure javascript 🔥🔥 **
+** A fully responsive and dynamic website with tailwindcss and pure javascript 🔥🔥 **
 
 <img width="1897" height="909" alt="Image" src="https://github.com/user-attachments/assets/632a9cbb-08a5-473a-a094-7bac69fd5c8e" />
 
